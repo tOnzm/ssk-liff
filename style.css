@@ -1,3 +1,10 @@
+* {
+  font-family: 'Prompt', sans-serif;
+}
+body {
+  font-family: 'Prompt', sans-serif;
+}
+
 #container {
   position: absolute;
   left: 50%;
@@ -7,5 +14,12 @@
   width: 100%;
   text-align: center;
 }
-input, button { font-size: 1em; padding: 0.5em }
-input[type=number] { width: 96px }
+input,
+button {
+  font-size: 1em;
+  padding: 0.5em;
+}
+input[type='number'] {
+  font-family: 'Prompt', sans-serif;
+  width: 96px;
+}

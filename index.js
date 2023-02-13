@@ -76,4 +76,3 @@ const main = async () => {
     liff.login();
   }
 };
-main();
