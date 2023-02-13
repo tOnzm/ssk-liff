@@ -26,7 +26,7 @@ class BMIPlugin {
   calculate(height, weight) {
     const heightInMeter = height / 100;
     const bmi = (weight / (heightInMeter * heightInMeter)).toFixed(2);
-    let result = 'none';
+    let result = 'ใส่เลขด้วยสิครับ!';
     if (bmi < 18.5) {
       result = 'XS';
     } else if (bmi >= 18.5 && bmi < 23) {
