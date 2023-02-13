@@ -24,4 +24,5 @@ button {
 input[type='number'] {
   font-family: 'Prompt', sans-serif;
   width: 96px;
+  background-color: #fefefe;
 }
